@@ -1,0 +1,32 @@
+.ControlPanel {
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: auto;
+    height: 100vh;
+
+    padding: 25px;
+}
+
+.ControlPanel h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.ControlPanel h2 {
+    font-size: 45px;
+    margin: 10px 25px;
+}
+
+.ControlPanel h2:hover {
+    color: darkgray;
+}
+
+.ControlPanel ol {
+    z-index: 10;
+}
